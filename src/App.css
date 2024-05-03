@@ -1,21 +1,27 @@
-main {
+.About {
+    margin: 32px;
+}
+
+.About-tabs {
     display: flex;
 }
 
-[role="navigation"] {
-    margin-top: 0;
+.About-tab {
+    color: black;
+    width: 100px;
+    cursor: pointer;
     padding: 8px;
-    min-height: 100vh;
-    background-color: #ffef64;
-    color: #001389;
+    background-color: #eee;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c0c0c0;
+    border-bottom-style: none;
 }
 
-[role="navigation"] a {
-    color: #001389;
-    line-height: 200%;
-    font-weight: 400;
+.About-tab.active {
+    background-color: white;
 }
 
-a:link {
-    text-decoration: none;
+.About dd {
+    margin-bottom: 32px;
 }

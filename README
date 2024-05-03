@@ -1,0 +1,1 @@
+This small project shows the power of using the MemoryRouter router from the react-router-dom library. The MemoryRouter appears to be just like the BrowserRouter. The difference is that the MemoryRouter has no dependency upon the underlying browser history API. It can keep track of the current location, and it can go backward and forward in history via simple memory structures.
